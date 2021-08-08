@@ -1,6 +1,6 @@
 
 
-::root{
+:root{
   --primary-color: #6c63ff; 
   --secondary-color:#f9f7fe;
   --heading-font-family:"playfair Display", serif;
@@ -11,7 +11,7 @@ body{
     font-family: var(--default-font-family);
 }
 
-h1 h2{
+h1 ,h2{
     font-family:var(--heading-font-family);
     color: black;
     font-weight: bold;
@@ -28,5 +28,30 @@ p{
 
 .hero{
     text-align: center;
-    background-color: #f9f7fe;;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p{
+   font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+
+.hero h2{
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+}
+
+.btn-button {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 20px;
 }
