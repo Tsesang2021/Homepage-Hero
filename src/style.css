@@ -41,7 +41,7 @@ p{
    
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero p{
@@ -81,7 +81,7 @@ p{
 }
 
 .content-container{
-     padding: 160px 20px;
+     padding: 60px 20px;
 }
 
 .content {
@@ -144,6 +144,11 @@ footer .contact-box {
     border-radius: 10px;
 }
 
+footer .open-source a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 footer .contact-box p{
     margin: 0;
 }
@@ -187,10 +192,6 @@ footer .social-links a:hover {
 
     h2{
       font-size: 44px;
-    }
-
-    .hero{
-        padding: 80px 20px;
     }
 
     .project-description{
